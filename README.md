@@ -1,4 +1,4 @@
-# ubuntu-sabzbbd
+# sabnzbd-ubuntu
 
 
 ### docker setup
