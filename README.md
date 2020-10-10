@@ -15,5 +15,5 @@ docker create \
   -v /path/to/downloads:/downloads \
   -v /path/to/incomplete/downloads:/incomplete-downloads `#optional` \
   --restart unless-stopped \
-  linuxserver/sabnzbd
+  thies88/sabnzbd-ubuntu
   ```
