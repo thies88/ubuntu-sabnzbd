@@ -20,8 +20,8 @@ RUN \
  echo "***** add sabnzbd repositories ****" && \
  apt-key adv --keyserver hkp://keyserver.ubuntu.com:11371 --recv-keys 0x98703123E0F52B2BE16D586EF13930B14BB9F05F && \
  echo "deb http://ppa.launchpad.net/jcfp/nobetas/ubuntu ${REL} main" >> /etc/apt/sources.list.d/sabnzbd.list && \
- echo "deb-src http://ppa.launchpad.net/jcfp/nobetas/ubuntu ${REL}  main" >> /etc/apt/sources.list.d/sabnzbd.list && \
- echo "deb http://ppa.launchpad.net/jcfp/sab-addons/ubuntu ${REL}  main" >> /etc/apt/sources.list.d/sabnzbd.list && \
+ echo "deb-src http://ppa.launchpad.net/jcfp/nobetas/ubuntu ${REL} main" >> /etc/apt/sources.list.d/sabnzbd.list && \
+ echo "deb http://ppa.launchpad.net/jcfp/sab-addons/ubuntu ${REL} main" >> /etc/apt/sources.list.d/sabnzbd.list && \
  echo "deb-src http://ppa.launchpad.net/jcfp/sab-addons/ubuntu ${REL} main" >> /etc/apt/sources.list.d/sabnzbd.list && \
  echo "**** install packages ****" && \
  apt-get update && \
